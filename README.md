@@ -1,0 +1,2 @@
+# MAGCN-Multi-view-Graph-Convolutional-Networks-with-Attention-Mechanism
+This repository implements MAGCN, a novel Graph Convolutional Network model that uses multi-view topologies and an attention mechanism to enhance node classification on graph data. The model achieves state-of-the-art results on benchmark datasets like Cora, Citeseer, and Pubmed. Perfect for researchers in graph-based machine learning.
