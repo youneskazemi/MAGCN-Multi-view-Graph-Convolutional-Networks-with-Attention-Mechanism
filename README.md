@@ -1,6 +1,7 @@
 # Multi-view Graph Convolutional Networks with Attention Mechanism
 
-This repository contains the code and resources for the paper "Multi-view Graph Convolutional Networks with Attention Mechanism" published in _Artificial Intelligence Journal_. The project implements a novel framework for graph convolutional networks (GCNs) that integrates multiple graph topologies and an attention-based feature aggregation strategy to enhance learning representations for various tasks.
+This repository implements MAGCN, a novel Graph Convolutional Network model that uses multi-view topologies and an attention mechanism to enhance node classification on graph data. The model achieves state-of-the-art results on benchmark datasets like Cora, Citeseer, and Pubmed. Perfect for researchers in graph-based machine learning. [Read the associated paper](https://www.sciencedirect.com/science/article/abs/pii/S0004370222000480).
+
 
 ## Table of Contents
 
@@ -82,9 +83,9 @@ The results of our method on the benchmark datasets are as follows:
 
 | Dataset  | Accuracy (%) |
 | -------- | ------------ |
-| Cora     | 84.5         |
-| Citeseer | 73.5         |
-| Pubmed   | 80.6         |
+| Cora     | 81           |
+| Citeseer | 72           |
+| Pubmed   | 80           |
 
 For detailed experimental results and robustness analysis, please refer to the `Results` section in the notebook or the accompanying paper.
 
